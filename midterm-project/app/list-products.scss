@@ -1,0 +1,19 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #333;
+}
+
+.card {
+    transition: 0.3s ease-in-out;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
